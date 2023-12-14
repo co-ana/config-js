@@ -1,0 +1,22 @@
+{
+  "name": "@co-ana/eslint-config-angular",
+  "version": "1.0.0",
+  "description": "All rules related to using ESLint with Angular",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/co-ana/config-js.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "@angular-eslint/eslint-plugin": "^17.1.1",
+    "eslint": "^8.55.0"
+  },
+  "peerDependencies": {
+    "@typescript-eslint/parser": "^6.14.0"
+  }
+}

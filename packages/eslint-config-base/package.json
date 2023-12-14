@@ -1,21 +1,17 @@
 {
   "name": "@co-ana/eslint-config-base",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "base config for js files",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/co-ana/config-js.git"
+    "url": "git+https://github.com/co-ana/config-js.git"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
   },
   "scripts": {
-    "prelint": "eclint check $(git ls-files | xargs find 2> /dev/null | grep -vE 'node_modules|\\.git')",
-    "lint": "eslint --report-unused-disable-directives .",
-    "pretest": "eslint --ignore-path .gitignore ."
   },
-  "author": "",
   "license": "ISC",
   "devDependencies": {
     "eslint": "^8.55.0"
