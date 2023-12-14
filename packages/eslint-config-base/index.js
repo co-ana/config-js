@@ -4,8 +4,12 @@ module.exports = {
     MyGlobal: true
   },
 
-  rules: {
-    semi: [2, "always"]
-  }
+  extends: [
+    "./rules/stylistic",
+    "./rules/variables",
+    "./rules/es6",
+    "./rules/best-practices",
+    "./rules/errors",
+  ]
 
 };
