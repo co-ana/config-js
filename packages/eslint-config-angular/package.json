@@ -1,6 +1,6 @@
 {
   "name": "@co-ana/eslint-config-angular",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "All rules related to using ESLint with Angular",
   "main": "index.js",
   "scripts": {},
@@ -12,11 +12,16 @@
     "registry": "https://npm.pkg.github.com"
   },
   "license": "ISC",
-  "devDependencies": {
-    "@angular-eslint/eslint-plugin": "^17.1.1",
-    "eslint": "^8.55.0"
-  },
   "peerDependencies": {
-    "@typescript-eslint/parser": "^6.14.0"
+    "@angular-eslint/eslint-plugin": "^17.1.1",
+    "@angular-eslint/eslint-plugin-template": "^17.1.1",
+    "@angular-eslint/template-parser": "^17.1.1",
+    "@babel/eslint-parser": "^7.23.3",
+    "@typescript-eslint/eslint-plugin": "^6.14.0",
+    "@typescript-eslint/parser": "^6.14.0",
+    "eslint": ">=8.55.0"
+  },
+  "devDependencies": {
+    "@angular-eslint/template-parser": "*"
   }
 }
