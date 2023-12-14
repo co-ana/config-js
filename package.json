@@ -1,0 +1,27 @@
+{
+  "name": "@co-ana/config-js",
+  "version": "1.0.0",
+  "description": "Style Guide for Yooga projects written in JS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/co-ana/config-js.git"
+  },
+  "keywords": [
+    "styleguide",
+    "lint",
+    "js"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/co-ana/config-js/issues"
+  },
+  "homepage": "https://github.com/co-ana/config-js#readme",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  }
+}
